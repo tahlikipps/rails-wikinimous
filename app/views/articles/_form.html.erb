@@ -1,0 +1,7 @@
+<%= form_with model: article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, placeholder: "Type the article title" %>
+  <%= f.label :content %>
+  <%= f.text_field :content, placeholder: "Type the article content" %>
+  <%= f.submit %>
+<% end %>
