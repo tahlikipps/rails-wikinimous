@@ -8,9 +8,19 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   </head>
 
   <body>
+  <div class="navbar-lewagon">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="https://banner2.cleanpng.com/20190914/tca/transparent-market-icon-news-icon-newspaper-icon-5d7ce8e6009aa0.6164315815684671740025.jpg" />
+      </a>
+    </div>
+  </div>
+  <div class="body-container">
     <%= yield %>
+  </div>
   </body>
 </html>

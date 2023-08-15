@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+ .navbar-lewagon {
+  justify-content: space-between;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.body-container {
+  background-color: rgb(221, 236, 241);
+}
+
+ .article-card-container {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+ }
+
+ .article-card {
+  margin: 15px;
+  padding: 10px;
+  width: 45%
+ }
+
+.article-card a {
+  color: #337ab7;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+}
